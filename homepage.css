@@ -1,0 +1,316 @@
+body{
+    font-family: Dosis, sans-serif;
+    margin:0px;
+    position:relative;
+}
+.Edyoda-logo{
+    width:100px;
+    height:50px;
+    position:sticky;
+    right:10px;
+    bottom:60px; 
+ }
+#Menu-items{
+    display:flex;
+    align-items: center;
+    border:none;
+    border-bottom:2px solid lightgray;
+    box-shadow: 2px 2px 4px lightgray;
+    padding: 8px 0px;
+    height:100px;
+
+}
+#Menu-items p{
+    text-decoration:none;
+    color:black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#Menu-items a{
+  text-decoration:none;
+}
+i{
+    text-decoration:none;   
+    color:black;
+}
+#search-bar{
+    background-color:white;
+    border:1px solid lightgray;
+    margin-left:120px;
+    box-sizing:border-box;
+    padding-left:4px;
+    margin-bottom:4px;    
+    
+}
+#search-bar a{
+    text-decoration:none;
+    color: gray;
+    padding-left:5px;
+}
+#input-text{
+    width:350px;
+    border:none;
+    outline:none;
+    font-size:16px;
+    padding:4px 6px;
+}
+#image-wrapper{
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+}
+#Menu-items p{
+    margin-left:120px;
+    cursor:pointer;
+    
+}
+#Menu-items span{
+    margin-left:120px;
+}
+#heading{
+    font-size:35px;
+    /* color:#e47312; */
+    color:#36688d !important;
+    cursor:pointer;
+    transition: all 1s;
+}
+#heading:hover{
+    transform:scale(1.2,1.2);
+}
+
+#cart-icon{
+    cursor:pointer;
+    position:relative;
+}
+.profile-icon{
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    margin-left:30px;
+    cursor:pointer;
+
+}
+
+#cart-count{
+    background-color:black;
+    color:white;
+    padding: 1px 2px;
+    font-size:12px;
+    border-radius:50%;
+    cursor:pointer;
+    position:absolute;
+    right:-10px;
+    top:-10px;  
+}
+
+
+/* ....................cards.................... */
+.card-image{
+    width:100%;
+    height:250px;
+}
+#cards-list{
+    width:84%;
+    /* margin-top:30px; */
+    margin-left:auto;
+    margin-right:auto;
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns:auto auto auto auto auto;
+}
+#accessories{
+    width:84%;
+    /* margin-top:30px; */
+    margin-left:auto;
+    margin-right:auto;
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns:auto auto auto auto auto;
+}
+.main-heading{
+    margin-left:8%;
+    font-size:32px;
+}
+.card-wrapper{
+    width:100%;
+    height:400px;
+    padding:8px;
+    margin-top:30px;
+    box-sizing:border-box;
+    border:1px solid #36688d;
+    box-shadow: 2px 2px 4px #36688d;
+    transition: all 1s;
+    cursor:pointer;
+}
+ .card-wrapper:hover{
+    transform:scale(1.1,1.1);
+
+
+} 
+
+.card-wrapper a{
+    color:black;
+}
+.card-wrapper a:hover{
+text-decoration:none;
+color:black;
+}
+.card-wrapper h3{
+    font-size:18px;
+    font-weight:600;
+
+}
+
+.selling-price{
+    color:green;
+
+}
+
+/* ----------------------------------------------------------------------footer-------------------------- */
+
+#footer-div{
+    width:100%;
+    height:300px;
+    font-size:16px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:#36688d;
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    padding-top:40px;
+    box-sizing:border-box;
+}
+
+/* --------------------------------------------Details page----------------- */
+  .card-grid-view{
+    display:grid;
+    grid-gap:100px;
+    grid-template-columns:auto auto; 
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: space-evenly;
+  }
+  .preview-image{
+      width:400px;
+      height:500px;
+  }
+  .Preview-image-btn{
+      width:60px;
+      height:60px;
+      margin-left:10px;
+      cursor:pointer;
+      border:2px solid #36688d;
+  }
+  .Preview-image-btn:hover{
+   box-shadow:4px 4px 4px #36688d;
+  }
+
+  .buy-btu{
+      width:150px;
+      height:50px;
+      margin-top:30px;
+      color:white;
+      background-color:#36688d;
+      border-radius:8px;
+      outline:none;
+      font-size:18px;
+      cursor:pointer;
+      border-radius:8px;
+      border:none;
+  }
+  .sub-heading{
+      font-size:24px;
+      font-family: Dosis, sans-serif;
+  }
+ 
+
+  /* ------------------------------checkout page------------------------ */
+  .card-wrapper-checkout{
+      display:flex;
+      width:600px;
+      height:150px;
+      border:1px solid lightgray;
+      box-shadow: 2px 2px 2px #36688d;
+      /* padding:24px;
+      box-sizing:border-box; */
+      padding-left:24px;
+      margin-top:5px;
+      margin-bottom:5px;
+      /* margin-left:100px; */
+      border-radius:8px;
+      position:relative;
+      
+  }
+  .remove-Btn{
+    position:absolute;
+    right:10px;
+    top:10px;
+    
+}
+  .order-btn{
+      width:100px;
+      height:50px;
+      background-color:#36688d;
+      color:white;
+      cursor:pointer;
+      border:none;
+      border-radius:8px;
+  }
+  #main-div-checkout{
+      display:grid;
+      grid-template-columns: auto auto;
+      justify-content: space-evenly;
+
+  }
+  .amount-display-card{
+      width: 500px;
+      height:150px;
+      box-shadow: 4px 4px 4px #36688d;
+      border:1px solid lightgray;
+      padding:28px;
+      box-sizing:border-box;
+      border-radius:8px;
+      margin-bottom:50px;
+      margin-top:100px;
+  }
+  #clear-cart{
+      width:100px;
+      height:50px;
+      background-color: #36688d;
+      border-radius:8px;
+      border:none;
+      color:white;
+      margin-left:100px;
+      margin-right:100px;
+  }
+
+ .check-out-card-img{
+     width:100px;
+     height:100px;
+     margin-top:20px;
+     /* margin-left:20px; */
+     margin-right:30px;
+ }
+ /* #message{
+     display:none;
+ } */
+  
+
+  /* -------------------------------------order-confirmation-------------------- */
+  
+  .confirmation-logo i{
+      color:green;
+  }
+  .confirmation-logo{
+      width:50%;
+      height:300px;
+      margin-left:auto;
+      margin-right:auto;
+      text-align:center;
+  }
+
